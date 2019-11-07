@@ -1,0 +1,13 @@
+[system38@localhost calc]$ yacc -d calc.y
+[system38@localhost calc]$ lex calc.l
+[system38@localhost calc]$ gcc y.tab.c -lm -w
+[system38@localhost calc]$ ./a.out
+Enter the expression : 
+2*(3+4)+2
+16.000000
+[system38@localhost calc]$ ./a.out
+Enter the expression : 
+2^2^2
+16.000000
+[system38@localhost calc]$ 
+

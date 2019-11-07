@@ -1,0 +1,8 @@
+main()
+{
+	int a=10,c;
+	scanf("%d",&b);
+	c=20;
+	c=a+b;
+	printf("answer is %d",c);
+}
